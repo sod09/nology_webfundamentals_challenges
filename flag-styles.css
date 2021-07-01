@@ -1,0 +1,63 @@
+.top {
+    background-color: black;
+    width: 320px;
+    height: 80px;  
+}
+
+
+.mid {
+    background-color: red;
+    width: 320px;
+    height: 80px;
+}
+
+.bot {
+    background-color: yellow;
+    width: 320px;
+    height: 80px;
+}
+
+.top-french {
+    background-color: blue;
+    width: 105px;
+    height: 320px;
+    float: left;
+}
+
+.mid-french {
+    background-color: white;
+    width: 105px;
+    height: 320px;
+    float: left;
+}
+
+.bot-french {
+    background-color: red;
+    width: 105px;
+    height: 320px;
+    float: left;
+}
+
+div:hover .top {
+    background-color: rgba(255, 0, 0, 0.76);
+}
+
+div:hover .mid {
+    background-color: white;
+}
+
+div:hover .bot {
+    background-color: green;
+}
+
+div:hover .top-french {
+    background-color: green;
+}
+
+div:hover .mid-french {
+    background-color: white;
+}
+
+div:hover .bot-french {
+    background-color: orange;
+}

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: 
+  // my answers........
+  // 'header header header'
+  // 'menu main right'
+  // 'menu footer footer';
+  // nology answers.............
+  'header header header header header'
+  'menu main main main right right'
+  'menu footer footer footer footer footer'
+  margin: 30px;
+  gap: 10px;
+}
+
+#item {
+  border: 5px cornflowerblue solid;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+
+}
+
+.header {
+  grid-area: header;
+}
+
+.menu {
+  grid-area: menu;
+}
+
+.main {
+  grid-area: main;
+}
+
+.right {
+  grid-area: right;
+}
+
+.footer { 
+  grid-area: footer;
+}
